@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "892345753745",
+    "project_id": "soft-e-commerce",
+    "storage_bucket": "soft-e-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892345753745:android:43a238c64a3332b2afdf30",
+        "android_client_info": {
+          "package_name": "com.softaloy.softe_commerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892345753745-6i630344ge391vkfmlpmh1ntm2t1c10p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASTo3ie-lDbWPx-yRM1QX0ODZnGL7fqJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892345753745-6i630344ge391vkfmlpmh1ntm2t1c10p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

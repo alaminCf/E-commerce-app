@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.softaloy.softe_commerce.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.softaloy.softe_commerce.ui.Offers.OffersFragment"
+        android:label="@string/offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/nav_new_products"
+        android:name="com.softaloy.softe_commerce.ui.NewProducts.NewProductsFragment"
+        android:label="@string/newproducts"
+        tools:layout="@layout/fragment_new_products" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.softaloy.softe_commerce.ui.category.CategoryFragment"
+        android:label="@string/category"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.softaloy.softe_commerce.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.softaloy.softe_commerce.MyOrdersFragment"
+        android:label="@string/myorders"
+        tools:layout="@layout/fragment_my_orders" />
+    <fragment
+        android:id="@+id/nav_my_carts"
+        android:name="com.softaloy.softe_commerce.MyCartsFragment"
+        android:label="@string/mycarts"
+        tools:layout="@layout/fragment_my_carts" />
+
+</navigation>
